@@ -5,13 +5,13 @@ A simple console tool to clean temporary files and improve system performance on
 --------- What it does ---------
 1. Cleans user Temp folder
 
-✅ Cleans Windows Temp folder
+2. Cleans Windows Temp folder
 
-✅ Cleans Prefetch cache (keeps layout.ini safe)
+3. Cleans Prefetch cache (keeps layout.ini safe)
 
-✅ Opens Temp folder in Explorer
+4. Opens Temp folder in Explorer
 
-✅ Shows disk space and system info
+5. Shows disk space and system info
 
 --------- Why use it? ---------
 — Lightweight (no GUI, runs in console)
