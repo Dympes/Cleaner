@@ -20,7 +20,7 @@ Why use it?
 
 3. Detailed feedback on cleaned space
 
-Quick start 
-Just run the .exe file. No installation needed.
+Quick start
+. Just run the .exe file. No installation needed.
 
-Built with C# and .NET.
+. Built with C# and .NET.
