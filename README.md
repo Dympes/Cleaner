@@ -14,11 +14,11 @@ A simple console tool to clean temporary files and improve system performance on
 5. Shows disk space and system info
 
 Why use it?
-— Lightweight (no GUI, runs in console)
+1. Lightweight (no GUI, runs in console)
 
-— Safe (preserves critical system files)
+2. Safe (preserves critical system files)
 
-— Detailed feedback on cleaned space
+3. Detailed feedback on cleaned space
 
 Quick start
 Just run the .exe file. No installation needed.
