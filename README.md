@@ -3,7 +3,7 @@ Windows Cleaner
 A simple console tool to clean temporary files and improve system performance on Windows.
 
 --------- What it does ---------
-✅ Cleans user Temp folder
+1. Cleans user Temp folder
 
 ✅ Cleans Windows Temp folder
 
