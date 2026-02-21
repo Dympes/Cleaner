@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🧹 Windows Cleaner</h1>
-  <p><strong>C# System Utility for Windows</strong></p>
+  <p><strong>A lightweight console utility for cleaning temporary files in Windows</strong></p>
   
   <p>
     <img src="https://img.shields.io/badge/platform-Windows-blue?style=flat-square" alt="Platform Windows">
@@ -12,74 +12,74 @@
 
 ---
 
-## 📋 О проекте
+## 📋 Overview
 
-Это консольное приложение для очистки временных файлов в Windows, разработанное в рамках курсового проекта. Программа демонстрирует практическое использование платформы .NET Framework для взаимодействия с файловой системой и операционной системой Windows.
+Windows Cleaner is a console-based application that helps free up disk space by safely removing temporary files and system junk. Built with C# and .NET Framework, it provides an efficient way to maintain your system's performance.
 
 <div align="center">
   <table>
     <tr>
       <td align="center">🗑️</td>
-      <td><b>Очистка временных файлов</b></td>
-      <td>Пользовательская папка TEMP, системная Windows\Temp</td>
+      <td><b>Temp Files Cleaning</b></td>
+      <td>User TEMP folder and system Windows\Temp</td>
     </tr>
     <tr>
       <td align="center">⚡</td>
-      <td><b>Очистка Prefetch</b></td>
-      <td>Безопасное удаление кэша предзагрузки</td>
+      <td><b>Prefetch Cleanup</b></td>
+      <td>Safely removes prefetch cache</td>
     </tr>
     <tr>
       <td align="center">📊</td>
-      <td><b>Информация о системе</b></td>
-      <td>Диски, ОС, имя компьютера, пользователь</td>
+      <td><b>System Information</b></td>
+      <td>Disk usage, OS version, computer name, user info</td>
     </tr>
     <tr>
       <td align="center">📂</td>
-      <td><b>Открытие TEMP</b></td>
-      <td>Быстрый доступ к папке через Проводник</td>
+      <td><b>Open TEMP Folder</b></td>
+      <td>Quick access via File Explorer</td>
     </tr>
   </table>
 </div>
 
 ---
 
-## 🛠️ Ключевые реализации
+## 🛠️ Key Features
 
 <div align="center">
   <table>
     <tr>
       <td width="50%" valign="top">
-        <h3>📁 Работа с файловой системой</h3>
+        <h3>📁 File System Operations</h3>
         <ul>
-          <li>Рекурсивное сканирование директорий с <code>Directory.GetFiles()</code> и <code>Directory.GetDirectories()</code></li>
-          <li>Безопасное удаление файлов с обработкой исключений (<code>try-catch</code>)</li>
-          <li>Подсчет размера файлов с <code>FileInfo.Length</code></li>
+          <li>Recursive directory scanning with <code>Directory.GetFiles()</code> and <code>Directory.GetDirectories()</code></li>
+          <li>Safe file deletion with exception handling (<code>try-catch</code>)</li>
+          <li>File size calculation with <code>FileInfo.Length</code></li>
         </ul>
       </td>
       <td width="50%" valign="top">
-        <h3>💻 Системное взаимодействие</h3>
+        <h3>💻 System Integration</h3>
         <ul>
-          <li>Получение информации о дисках через <code>DriveInfo</code></li>
-          <li>Системные данные из <code>Environment</code></li>
-          <li>Запуск Проводника через <code>Process.Start()</code></li>
+          <li>Drive information via <code>DriveInfo</code> class</li>
+          <li>System data from <code>Environment</code> class</li>
+          <li>Launch Explorer with <code>Process.Start()</code></li>
         </ul>
       </td>
     </tr>
     <tr>
       <td width="50%" valign="top">
-        <h3>🎨 Пользовательский интерфейс</h3>
+        <h3>🎨 User Interface</h3>
         <ul>
-          <li>Цветное консольное меню (<code>ConsoleColor</code>)</li>
-          <li>Форматирование байтов в читаемый вид (<code>FormatBytes()</code>)</li>
-          <li>Интерактивная навигация по пунктам меню</li>
+          <li>Colored console menu (<code>ConsoleColor</code>)</li>
+          <li>Byte formatting for human-readable output (<code>FormatBytes()</code>)</li>
+          <li>Interactive menu navigation</li>
         </ul>
       </td>
       <td width="50%" valign="top">
-        <h3>🛡️ Обработка ошибок</h3>
+        <h3>🛡️ Error Handling</h3>
         <ul>
-          <li>Продолжение работы при недоступных файлах</li>
-          <li>Подсчет ошибок и информирование пользователя</li>
-          <li>Защита системного файла <code>layout.ini</code></li>
+          <li>Continues operation when files are inaccessible</li>
+          <li>Error counting and user feedback</li>
+          <li>Protects system file <code>layout.ini</code> during Prefetch cleanup</li>
         </ul>
       </td>
     </tr>
@@ -88,48 +88,11 @@
 
 ---
 
-## 🎓 Что было изучено
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="33%">
-        <h3>📚 System.IO</h3>
-        <p>Работа с файлами, директориями, путями и дисками</p>
-      </td>
-      <td align="center" width="33%">
-        <h3>⚠️ Исключения</h3>
-        <p>Обработка ошибок доступа и занятых файлов</p>
-      </td>
-      <td align="center" width="33%">
-        <h3>🧩 Модульность</h3>
-        <p>Разделение логики на функции с четкими задачами</p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="33%">
-        <h3>🔧 System.Diagnostics</h3>
-        <p>Запуск внешних процессов (explorer.exe)</p>
-      </td>
-      <td align="center" width="33%">
-        <h3>🎯 System.Environment</h3>
-        <p>Получение информации об ОС и пользователе</p>
-      </td>
-      <td align="center" width="33%">
-        <h3>🎨 Console API</h3>
-        <p>Цветной вывод и форматирование текста</p>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-## 🚀 Быстрый старт
+## 🚀 Getting Started
 
 ```bash
-# Клонировать репозиторий
+# Clone the repository
 git clone https://github.com/yourusername/windows-cleaner.git
 
-# Открыть в Visual Studio и собрать
-# Или просто скачать готовый .exe из релизов
+# Open in Visual Studio and build
+# Or download the latest release
