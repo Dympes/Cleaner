@@ -14,7 +14,7 @@
 
 ## 📋 Overview
 
-Windows Cleaner is a console-based application that helps free up disk space by safely removing temporary files and system junk. Built with C# and .NET Framework, it provides an efficient way to maintain your system's performance.
+Cleaner is a console-based application that helps free up disk space by safely removing temporary files and system junk. Built with C# and .NET Framework, it provides an efficient way to maintain your system's performance.
 
 <div align="center">
   <table>
