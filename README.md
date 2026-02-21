@@ -43,51 +43,6 @@ Windows Cleaner is a console-based application that helps free up disk space by 
 
 ---
 
-## 🛠️ Key Features
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%" valign="top">
-        <h3>📁 File System Operations</h3>
-        <ul>
-          <li>Recursive directory scanning with <code>Directory.GetFiles()</code> and <code>Directory.GetDirectories()</code></li>
-          <li>Safe file deletion with exception handling (<code>try-catch</code>)</li>
-          <li>File size calculation with <code>FileInfo.Length</code></li>
-        </ul>
-      </td>
-      <td width="50%" valign="top">
-        <h3>💻 System Integration</h3>
-        <ul>
-          <li>Drive information via <code>DriveInfo</code> class</li>
-          <li>System data from <code>Environment</code> class</li>
-          <li>Launch Explorer with <code>Process.Start()</code></li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" valign="top">
-        <h3>🎨 User Interface</h3>
-        <ul>
-          <li>Colored console menu (<code>ConsoleColor</code>)</li>
-          <li>Byte formatting for human-readable output (<code>FormatBytes()</code>)</li>
-          <li>Interactive menu navigation</li>
-        </ul>
-      </td>
-      <td width="50%" valign="top">
-        <h3>🛡️ Error Handling</h3>
-        <ul>
-          <li>Continues operation when files are inaccessible</li>
-          <li>Error counting and user feedback</li>
-          <li>Protects system file <code>layout.ini</code> during Prefetch cleanup</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
 ## 🚀 Getting Started
 
 ```bash
