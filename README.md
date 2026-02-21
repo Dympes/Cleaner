@@ -47,7 +47,7 @@ Cleaner is a console-based application that helps free up disk space by safely r
 
 ```bash
 # Clone the repository
-git clone https://github.com/dympes/cleaner
+git clone https://github.com/dympes/cleaner.git
 
 # Open in Visual Studio and build
 # Or download the latest release
