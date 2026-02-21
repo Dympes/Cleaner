@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🧹 Windows Cleaner</h1>
+  <h1>🧹 Cleaner</h1>
   <p><strong>A lightweight console utility for cleaning temporary files in Windows</strong></p>
   
   <p>
