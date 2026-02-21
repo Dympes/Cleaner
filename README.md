@@ -47,7 +47,7 @@ Windows Cleaner is a console-based application that helps free up disk space by 
 
 ```bash
 # Clone the repository
-git clone https://github.com/Dympes/cleaner
+git clone https://github.com/dympes/cleaner
 
 # Open in Visual Studio and build
 # Or download the latest release
